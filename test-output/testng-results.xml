@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SAUCE DEMO Test Automation Test Suite" duration-ms="66433" started-at="2021-02-12T16:19:00 IST" finished-at="2021-02-12T16:20:07 IST">
+    <groups>
+    </groups>
+    <test name="Sauce DEMO Test Cases" duration-ms="66433" started-at="2021-02-12T16:19:00 IST" finished-at="2021-02-12T16:20:07 IST">
+      <class name="com.sauce.qa.testcases.CartPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="SetUp" is-config="true" duration-ms="7972" started-at="2021-02-12T16:19:30 IST" finished-at="2021-02-12T16:19:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="clickonAddtoCartTest()[pri:1, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="clickonAddtoCartTest" duration-ms="83" started-at="2021-02-12T16:19:38 IST" finished-at="2021-02-12T16:19:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonAddtoCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="tearDown" is-config="true" duration-ms="1123" started-at="2021-02-12T16:19:38 IST" finished-at="2021-02-12T16:19:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="SetUp" is-config="true" duration-ms="6525" started-at="2021-02-12T16:19:39 IST" finished-at="2021-02-12T16:19:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="viewCartPageTest()[pri:2, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="viewCartPageTest" duration-ms="245" started-at="2021-02-12T16:19:46 IST" finished-at="2021-02-12T16:19:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="tearDown" is-config="true" duration-ms="809" started-at="2021-02-12T16:19:46 IST" finished-at="2021-02-12T16:19:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="SetUp" is-config="true" duration-ms="8237" started-at="2021-02-12T16:19:47 IST" finished-at="2021-02-12T16:19:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="removeitemFromCart()[pri:3, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="removeitemFromCart" duration-ms="10698" started-at="2021-02-12T16:19:55 IST" finished-at="2021-02-12T16:20:06 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#cart_contents_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > button"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DEBU', ip: '192.168.29.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\Debanjan\AppData\Local\Temp\scoped_dir1260_1673241759}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:2159}, acceptInsecureCerts=false, browserVersion=88.0.4324.150, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 68ce8cfa7621944270a17ab36fa125c5
+*** Element info: {Using=css selector, value=#cart_contents_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cart_contents_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > button"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DEBU', ip: '192.168.29.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\Debanjan\AppData\Local\Temp\scoped_dir1260_1673241759}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:2159}, acceptInsecureCerts=false, browserVersion=88.0.4324.150, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 68ce8cfa7621944270a17ab36fa125c5
+*** Element info: {Using=css selector, value=#cart_contents_container > div > div.cart_list > div.cart_item > div.cart_item_label > div.item_pricebar > button}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.sauce.qa.pages.CartPage.removeitemFromCart(CartPage.java:21)
+at com.sauce.qa.testcases.CartPageTest.removeitemFromCart(CartPageTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeitemFromCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.CartPageTest@5606c0b]" name="tearDown" is-config="true" duration-ms="893" started-at="2021-02-12T16:20:06 IST" finished-at="2021-02-12T16:20:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.CartPageTest -->
+      <class name="com.sauce.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@25359ed8]" name="setUp" is-config="true" duration-ms="11884" started-at="2021-02-12T16:19:00 IST" finished-at="2021-02-12T16:19:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.sauce.qa.testcases.LoginPageTest@25359ed8]" name="loginTest" duration-ms="1435" started-at="2021-02-12T16:19:12 IST" finished-at="2021-02-12T16:19:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.LoginPageTest@25359ed8]" name="tearDown" is-config="true" duration-ms="822" started-at="2021-02-12T16:19:14 IST" finished-at="2021-02-12T16:19:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauce.qa.testcases.LoginPageTest -->
+      <class name="com.sauce.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="setUp" is-config="true" duration-ms="6379" started-at="2021-02-12T16:19:15 IST" finished-at="2021-02-12T16:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickonAddtoCartTest()[pri:1, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="clickonAddtoCartTest" duration-ms="82" started-at="2021-02-12T16:19:21 IST" finished-at="2021-02-12T16:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonAddtoCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="tearDown" is-config="true" duration-ms="818" started-at="2021-02-12T16:19:21 IST" finished-at="2021-02-12T16:19:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="setUp" is-config="true" duration-ms="7148" started-at="2021-02-12T16:19:22 IST" finished-at="2021-02-12T16:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewCartPageTest()[pri:2, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="viewCartPageTest" duration-ms="234" started-at="2021-02-12T16:19:29 IST" finished-at="2021-02-12T16:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="tearDown" is-config="true" duration-ms="884" started-at="2021-02-12T16:19:29 IST" finished-at="2021-02-12T16:19:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="sortTheProductsTest(java.lang.String)[pri:3, instance:com.sauce.qa.testcases.HomePageTest@21a947fe]" name="sortTheProductsTest" duration-ms="0" started-at="2021-02-12T16:19:30 IST" finished-at="2021-02-12T16:19:30 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [sortTheProductsTest] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [sortTheProductsTest] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTheProductsTest -->
+      </class> <!-- com.sauce.qa.testcases.HomePageTest -->
+    </test> <!-- Sauce DEMO Test Cases -->
+  </suite> <!-- SAUCE DEMO Test Automation Test Suite -->
+</testng-results>
